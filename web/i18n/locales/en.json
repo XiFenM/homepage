@@ -37,7 +37,9 @@
       "cookingHut": "Cooking Hut",
       "wayfarerInn": "Wayfarer's Inn"
     },
-    "back": "Back to the Hut"
+    "back": "Back to the Hut",
+    "close": "Close",
+    "openHotspot": "open"
   },
   "cosmos": {
     "title": "Stargazer's Tower",

@@ -37,7 +37,9 @@
       "cookingHut": "烹饪窝棚",
       "wayfarerInn": "旅人客栈"
     },
-    "back": "回到晚樵庐"
+    "back": "回到晚樵庐",
+    "close": "关闭",
+    "openHotspot": "翻开"
   },
   "cosmos": {
     "title": "观星塔",
