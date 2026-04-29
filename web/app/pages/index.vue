@@ -37,23 +37,25 @@ useSeoMeta({ title: () => t('site.name'), description: () => t('site.tagline') }
 
 .hero__wordmark {
   position: absolute;
-  top: var(--space-lg);
+  top: var(--space-xl);
   left: var(--space-xl);
   z-index: var(--z-hero-objects);
 }
 
+/* Card stack offset toward upper-left so it sits inside the lamp's lit pool
+   (S3 background has its warm circle centered around 30% x, 35% y). */
 .hero__cards {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 45%;
+  left: 42%;
   transform: translate(-50%, -50%);
   z-index: var(--z-hero-objects);
 }
 
 .hero__scroll {
   position: absolute;
-  left: 5%;
-  bottom: 8%;
+  left: 4%;
+  bottom: 6%;
   z-index: var(--z-hero-easter-egg);
 }
 
@@ -66,8 +68,8 @@ useSeoMeta({ title: () => t('site.name'), description: () => t('site.tagline') }
 
 .hero__footer {
   position: absolute;
-  bottom: var(--space-md);
-  right: var(--space-lg);
+  bottom: var(--space-lg);
+  right: var(--space-xl);
   z-index: var(--z-language-toggle);
 }
 </style>

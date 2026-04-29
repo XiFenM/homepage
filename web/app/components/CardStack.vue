@@ -72,7 +72,7 @@ const cards: Card[] = [
 <style scoped>
 .card-stack {
   position: relative;
-  width: clamp(280px, 35vw, 520px);
+  width: clamp(360px, 42vw, 640px);
   aspect-ratio: 5 / 4;
 }
 

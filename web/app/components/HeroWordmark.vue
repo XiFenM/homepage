@@ -34,9 +34,9 @@ const { t } = useI18n()
 .hero-wordmark__img {
   width: 100%;
   height: auto;
-  /* Wordmark is dark ink on white paper background — multiply blend lets the
-     desk warmth show through the white paper, looking less like a sticker. */
-  mix-blend-mode: multiply;
-  opacity: 0.92;
+  /* Wordmark PNG now has transparent background (post-processed), so the brush
+     strokes are pure ink-black on transparency — no blend mode needed. Keep
+     a tiny opacity drop for that "ink-bled-into-wood" feel. */
+  opacity: 0.95;
 }
 </style>
