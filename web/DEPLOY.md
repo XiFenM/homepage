@@ -48,9 +48,11 @@ git -c submodule."assert-preparation/prompts-reference/*".update=none submodule 
    | Production branch | `main` |
    | Framework preset | `Nuxt.js` |
    | Build command | `cd web && bun install && bun run generate` |
-   | Build output directory | `web/.output/public` |
+   | Build output directory | **`web/dist`** ⚠️ |
    | Root directory | （留空，使用仓库根） |
-   | Environment variables | `NODE_VERSION=22`<br>`NPM_FLAGS=--version`（绕过自动 npm install）<br>**或者** 用 Bun 官方支持，下方说明 |
+   | Environment variables | `NODE_VERSION=22` |
+
+   ⚠️ **关于 build output directory**：本地 `bun run generate` 输出到 `.output/public/`，但 Cloudflare Pages 的 build 环境会设 `CF_PAGES=1`，Nitro 检测到后**自动切换到 `cloudflare-pages` preset**——输出改到 `dist/`。所以 CF 这里必须填 `web/dist` 而不是 `web/.output/public`。本地预览仍用 `bun run preview` 即可，路径不冲突。
 
 4. **如果 Cloudflare Pages 不识别 bun**：在 build command 里换为
    ```
