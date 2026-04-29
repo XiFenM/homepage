@@ -1,0 +1,37 @@
+{
+  "site": {
+    "name": "The Late Woodcutter's Hut",
+    "subtitle": "Xifengmu's private notes",
+    "tagline": "Late night. Warm lamp. A few cards on the desk."
+  },
+  "nav": {
+    "home": "Wǎnqiáolú",
+    "tech": "Tech",
+    "life": "Life",
+    "interests": "Interests",
+    "thoughts": "Thoughts",
+    "blank": "Blank",
+    "language": "中"
+  },
+  "easterEgg": {
+    "footerLink": "still wandering somewhere →",
+    "scrollAlt": "An old half-finished map on the desk.",
+    "enterMap": "open"
+  },
+  "map": {
+    "title": "Forget-me-not",
+    "regions": {
+      "irisPlains": "Iris Plains",
+      "ironboundLibrary": "Ironbound Library",
+      "stargazerTower": "Stargazer's Tower",
+      "cookingHut": "Cooking Hut",
+      "wayfarerInn": "Wayfarer's Inn"
+    },
+    "back": "Back to the Hut"
+  },
+  "cosmos": {
+    "title": "Stargazer's Tower",
+    "wishPrefix": "I wish",
+    "back": "Back to the map"
+  }
+}

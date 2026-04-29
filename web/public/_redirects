@@ -1,0 +1,7 @@
+# Cloudflare Pages routing
+# https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# /勿忘我 — Chinese-language alias for the easter-egg map.
+# Status 200 = rewrite (URL stays as /勿忘我 in the browser bar).
+
+/勿忘我  /map  200

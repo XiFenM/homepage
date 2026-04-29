@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- paper-curl mask: opaque card body (use as clip-path) -->
+  <path id="card-body" d="M 0 0 L 328.00 0 C 350.44 8.97, 391.03 76.44, 400.00 54.00 L 400 300 L 0 300 Z" fill="oklch(95% 0.005 85)" />
+  <!-- the curled-up flap (slightly darker, simulates paper underside) -->
+  <path id="curl-flap" d="M 328.00 0 L 400.00 0 L 400.00 54.00 C 391.03 76.44, 350.44 8.97, 328.00 0 Z" fill="oklch(85% 0.01 80)" opacity="0.35" />
+</svg>

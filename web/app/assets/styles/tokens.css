@@ -1,0 +1,76 @@
+/*
+ * Design tokens — single source of truth for OKLCH color, typography, spacing.
+ * Mirrors DESIGN.md frontmatter. Keep in sync.
+ *
+ * Architecture (PRODUCT.md): 主体 + 彩蛋 (one site, one secret)
+ *   - 晚樵庐 = primary site (Hero Zone + Quiet Mode content)
+ *   - 勿忘我 = hidden Map Mode (easter egg, not a separate equal site)
+ */
+
+:root {
+  /* ── Signature Layer (怀黍离, visible everywhere) ─────────────────────── */
+  --ink-black: oklch(22% 0.01 250);
+  --paper-white: oklch(97% 0.005 85);
+  --seal-red: oklch(48% 0.18 28);
+
+  /* ── 晚樵庐 Hero Zone (desk + cards + easter-egg scroll) ──────────────── */
+  --desk-walnut: oklch(28% 0.04 55);
+  --desk-walnut-deep: oklch(20% 0.03 50);
+  --lamp-glow: oklch(82% 0.10 75);
+  --dust-mote: oklch(70% 0.02 60);
+
+  /* ── 晚樵庐 Quiet Mode (罗小黑联动 inheritance) ───────────────────────── */
+  --quiet-paper: oklch(96% 0.012 90);
+  --quiet-lime: oklch(86% 0.16 125);
+  --quiet-lime-deep: oklch(72% 0.18 130);
+  --quiet-ink-mountain: oklch(38% 0.02 145);
+  --quiet-mist: oklch(88% 0.01 145);
+
+  /* ── 勿忘我 Map Mode (迷宫饭联动 inheritance) ─────────────────────────── */
+  --map-parchment: oklch(89% 0.04 80);
+  --map-parchment-deep: oklch(78% 0.05 75);
+  --map-parchment-edge: oklch(68% 0.06 70);
+  --map-burgundy: oklch(34% 0.12 25);
+  --map-dungeon-olive: oklch(42% 0.08 110);
+  --map-mustard-gold: oklch(72% 0.14 75);
+
+  /* ── Cosmos Sub-zone (星语共愿 inheritance, 观星塔 hotspot only) ───────── */
+  --cosmos-deep-night: oklch(15% 0.03 260);
+  --cosmos-pearl-blue: oklch(72% 0.08 240);
+  --cosmos-ice-white: oklch(95% 0.01 240);
+  --cosmos-tangerine: oklch(78% 0.13 60);
+
+  /* ── Typography stacks ────────────────────────────────────────────────── */
+  --font-serif-zh: "Source Han Serif SC", "Songti SC", "STSong", serif;
+  --font-serif-en: "Cormorant Garamond", "EB Garamond", "Georgia", serif;
+  --font-sans-zh: "Source Han Sans SC", "PingFang SC", system-ui, sans-serif;
+  --font-sans-en: "Inter", "Source Han Sans SC", system-ui, sans-serif;
+  --font-heading-zh: "Source Han Sans SC", "PingFang SC", sans-serif;
+  --font-heading-en: "Cinzel", "Trajan Pro", serif;
+  --font-mono: "Bender", "JetBrains Mono", ui-monospace, monospace;
+  --font-handwritten: "Caveat", "Kalam", cursive;
+
+  /* ── Rounded ──────────────────────────────────────────────────────────── */
+  --rounded-none: 0;
+  --rounded-sticker: 2px;
+  --rounded-pill: 9999px;
+
+  /* ── Spacing ──────────────────────────────────────────────────────────── */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+  --space-xxl: 128px;
+  --space-scroll-margin: 12vw;
+
+  /* ── Z-index layers ───────────────────────────────────────────────────── */
+  --z-hero-bg: 1;
+  --z-hero-objects: 2;
+  --z-hero-easter-egg: 3;
+  --z-content: 10;
+  --z-language-toggle: 50;
+  --z-map-overlay: 80;
+  --z-cosmos-overlay: 90;
+  --z-modal: 100;
+}

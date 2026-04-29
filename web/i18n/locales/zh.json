@@ -1,0 +1,37 @@
+{
+  "site": {
+    "name": "晚樵庐",
+    "subtitle": "夕丰木的私人记事",
+    "tagline": "夜深，灯暖，桌上摊着几张卡片。"
+  },
+  "nav": {
+    "home": "晚樵庐",
+    "tech": "技术",
+    "life": "生活",
+    "interests": "兴趣",
+    "thoughts": "杂念",
+    "blank": "空白",
+    "language": "EN"
+  },
+  "easterEgg": {
+    "footerLink": "还在某处游荡 →",
+    "scrollAlt": "桌上一卷未走完的旧地图。",
+    "enterMap": "翻开"
+  },
+  "map": {
+    "title": "勿忘我",
+    "regions": {
+      "irisPlains": "鸢尾平原",
+      "ironboundLibrary": "钢铁书库",
+      "stargazerTower": "观星塔",
+      "cookingHut": "烹饪窝棚",
+      "wayfarerInn": "旅人客栈"
+    },
+    "back": "回到晚樵庐"
+  },
+  "cosmos": {
+    "title": "观星塔",
+    "wishPrefix": "我希望",
+    "back": "回到地图"
+  }
+}

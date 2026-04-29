@@ -1,0 +1,16 @@
+[submodule "assert-preparation/prompts-reference/awesome-gpt-image"]
+	path = assert-preparation/prompts-reference/awesome-gpt-image
+	url = https://github.com/ZeroLu/awesome-gpt-image.git
+	shallow = true
+[submodule "assert-preparation/prompts-reference/awesome-gpt-image-2-prompts"]
+	path = assert-preparation/prompts-reference/awesome-gpt-image-2-prompts
+	url = https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts.git
+	shallow = true
+[submodule "assert-preparation/prompts-reference/awesome-seedance"]
+	path = assert-preparation/prompts-reference/awesome-seedance
+	url = https://github.com/ZeroLu/awesome-seedance.git
+	shallow = true
+[submodule "assert-preparation/prompts-reference/Seedance2-Storyboard-Generator"]
+	path = assert-preparation/prompts-reference/Seedance2-Storyboard-Generator
+	url = https://github.com/liangdabiao/Seedance2-Storyboard-Generator.git
+	shallow = true

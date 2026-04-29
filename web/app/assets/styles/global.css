@@ -1,0 +1,86 @@
+/*
+ * Global styles — minimal reset + typographic baseline.
+ * DESIGN.md doctrines enforced here:
+ *   - The No-Pure-Black/White Rule: zero #000 / #fff
+ *   - The Flat-By-Ink Rule: no box-shadow
+ *   - The No-Levitation Rule: no transform: translateY on hover for cards
+ *   - The Bilingual Equal Rule: ZH and EN equal density, micro-tracking only
+ */
+
+@import "./tokens.css";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans-zh);
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--ink-black);
+  background: var(--paper-white);
+  letter-spacing: -0.005em; /* The Bilingual Equal Rule: ZH default tightening */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html[lang="en"] body {
+  font-family: var(--font-sans-en);
+  letter-spacing: normal;
+}
+
+a {
+  color: var(--quiet-lime-deep);
+  text-decoration: underline;
+  text-decoration-color: var(--quiet-lime);
+  text-underline-offset: 0.2em;
+  transition: color 200ms ease-out, text-decoration-color 200ms ease-out;
+}
+
+a:hover {
+  color: var(--ink-black);
+  text-decoration-color: var(--quiet-lime-deep);
+}
+
+/* Focus outline — keyboard navigation respected; The No-Levitation does not
+   forbid keyboard rings, only mouse-hover lift transforms. */
+:focus-visible {
+  outline: 2px dashed var(--ink-black);
+  outline-offset: 4px;
+}
+
+img, video, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* The Flat-By-Ink Rule — global suppression of accidental box-shadow */
+* {
+  box-shadow: none;
+}
+
+/* prefers-reduced-motion baseline: replace transitions with opacity-only fades */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
