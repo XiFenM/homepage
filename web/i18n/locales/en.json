@@ -13,6 +13,16 @@
     "blank": "Blank",
     "language": "中"
   },
+  "post": {
+    "writtenOn": "written on",
+    "readMore": "read on →",
+    "backToCategory": "← {category}",
+    "noPostsYet": "still empty.",
+    "noPostsYetEn": "这里还空着。",
+    "tags": "tags",
+    "blankPlaceholder": "deliberately blank.",
+    "blankPlaceholderEn": "这里留白。"
+  },
   "easterEgg": {
     "footerLink": "still wandering somewhere →",
     "scrollAlt": "An old half-finished map on the desk.",

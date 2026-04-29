@@ -13,6 +13,16 @@
     "blank": "空白",
     "language": "EN"
   },
+  "post": {
+    "writtenOn": "写于",
+    "readMore": "继续读 →",
+    "backToCategory": "← {category}",
+    "noPostsYet": "这里还空着。",
+    "noPostsYetEn": "still empty.",
+    "tags": "标签",
+    "blankPlaceholder": "这里留白。",
+    "blankPlaceholderEn": "deliberately blank."
+  },
   "easterEgg": {
     "footerLink": "还在某处游荡 →",
     "scrollAlt": "桌上一卷未走完的旧地图。",
