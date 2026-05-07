@@ -34,7 +34,7 @@ assert-preparation/generator/.venv/
 # Asset generator outputs — regenerable from prompts.py
 # ============================================================================
 # AI generations (~380 MB) are reproducible via `uv run python generate.py`
-assert-preparation/generated/static/
+# assert-preparation/generated/static/
 assert-preparation/generated/video/
 
 # Keep regenerable-but-tiny outputs (textures from numpy noise, mask SVGs):
@@ -51,10 +51,10 @@ assert-preparation/generated/video/
 
 # Arknights design analysis archive — keep only the design-system markdowns,
 # skip the heavy PDF + art reference (~100 MB)
-arknights-analysis/arknights-art/
-arknights-analysis/UIUX-analysis-for-Arknights.pdf
-arknights-analysis/arknights-ui-ux-article/
-arknights-analysis/arknights-pdf-article/
+# arknights-analysis/arknights-art/
+# arknights-analysis/UIUX-analysis-for-Arknights.pdf
+# arknights-analysis/arknights-ui-ux-article/
+# arknights-analysis/arknights-pdf-article/
 # Note: arknights-analysis/arknights-design-system/ IS tracked (140 KB)
 # — those are the four design-system docs DESIGN.md inherits from.
 

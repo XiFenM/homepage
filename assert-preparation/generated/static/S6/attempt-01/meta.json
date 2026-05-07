@@ -1,0 +1,10 @@
+{
+  "code": "S6",
+  "label": "world map (5 regions + 9-10 hotspots, isometric, on parchment)",
+  "model": "openai/gpt-image-2",
+  "image_size": "3840x2160",
+  "n_requested": 4,
+  "n_returned": 4,
+  "output_mime": "image/png",
+  "elapsed_seconds": 209.65
+}

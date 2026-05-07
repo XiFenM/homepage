@@ -1,0 +1,10 @@
+{
+  "code": "S5B",
+  "label": "quiet-object B: Chinese stitched binding 线装书 (green cover)",
+  "model": "openai/gpt-image-2",
+  "image_size": "1024x800",
+  "n_requested": 4,
+  "n_returned": 4,
+  "output_mime": "image/png",
+  "elapsed_seconds": 78.39
+}

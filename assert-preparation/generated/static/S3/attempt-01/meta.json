@@ -1,0 +1,10 @@
+{
+  "code": "S3",
+  "label": "homepage desk scene (no objects, 4K UHD)",
+  "model": "openai/gpt-image-2",
+  "image_size": "3840x2160",
+  "n_requested": 4,
+  "n_returned": 4,
+  "output_mime": "image/png",
+  "elapsed_seconds": 118.69
+}

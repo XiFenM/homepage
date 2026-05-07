@@ -1,0 +1,10 @@
+{
+  "code": "S1",
+  "label": "晚樵庐 wordmark (brush, semi-cursive)",
+  "model": "openai/gpt-image-2",
+  "image_size": "2048x768",
+  "n_requested": 4,
+  "n_returned": 4,
+  "output_mime": "image/png",
+  "elapsed_seconds": 68.75
+}

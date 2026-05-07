@@ -1,0 +1,10 @@
+{
+  "code": "S4",
+  "label": "parchment scroll (half-unrolled, with map corner)",
+  "model": "openai/gpt-image-2",
+  "image_size": "1024x768",
+  "n_requested": 4,
+  "n_returned": 4,
+  "output_mime": "image/png",
+  "elapsed_seconds": 98.08
+}
